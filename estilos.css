@@ -528,5 +528,44 @@ footer .copyright {
   background: linear-gradient(90deg, #00ffaa, #6a00ff);
 }
 
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Secciones una debajo de otra */
+    }
+
+    section {
+        width: 95% !important;  /* Ocupa casi todo el ancho del celular */
+        max-width: 600px;       /* Evita que se estire demasiado */
+        margin: 10px auto;      /* Centra la sección */
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Menú vertical en móvil */
+        text-align: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    .presentacion-card,
+    .game-card,
+    .experiencia-card,
+    .certificacion-card,
+    .estudio-card {
+        width: 100% !important; /* Tarjetas ocupan todo el ancho */
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
 /* Fuentes arcade */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap');
+
