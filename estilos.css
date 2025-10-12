@@ -566,6 +566,39 @@ footer .copyright {
         margin: 0 auto;
     }
 }
+
+.language-switcher {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.language-switcher .lang {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #f5f5f5;
+  background: #222;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.language-switcher .lang img {
+  width: 20px;
+  height: auto;
+}
+
+.language-switcher .lang:hover {
+  background: #007bff;
+  color: #fff;
+}
+
 /* Fuentes arcade */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap');
+
 
