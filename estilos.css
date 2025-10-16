@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Body y Layout */
 
 header {
@@ -600,5 +604,6 @@ footer .copyright {
 
 /* Fuentes arcade */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap');
+
 
 
