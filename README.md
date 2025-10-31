@@ -12,4 +12,4 @@
 
 **Portafolio Incluye:** Proyectos STEAM, sistemas IoT educativos, videojuegos didácticos, y soluciones de accesibilidad
 
-CV Web [enlace](https://panteralan.github.io/cv-web/)
+[CV Web Alan Placeres](https://panteralan.github.io/cv-web/)
